@@ -1,0 +1,33 @@
+{
+  "name": "theme-guille",
+  "displayName": "Guille Theme",
+  "description": "A vibrant dark theme with green and yellow accents",
+  "version": "0.1.0",
+  "publisher": "guilhermeabds",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "green",
+    "guille"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Guille Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/guille-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guilhermeabds/theme-guille"
+  }
+}
